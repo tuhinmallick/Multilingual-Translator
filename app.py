@@ -39,6 +39,4 @@ if st.button('💬 Translate'):
             out = tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)
             st.success('✅ Translation Complete! 😉')
             st.write('', str(out).strip('][\''))
-else: pass
-
 st.markdown("<br><br><hr><center>Made with ❤️ by <a href='mailto:ralhanprateek@gmail.com?subject=Multilingual Translator WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
